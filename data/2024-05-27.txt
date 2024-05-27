@@ -1,0 +1,68 @@
+# Project: Refactoring of example8.html
+
+## Objective
+- Break down the code in example8.html into multiple modules using TypeScript and Next.js.
+- Improve code readability and maintainability.
+
+## Current File Structure
+- public/sdk-full-gen2/SDK/agape/example8.html
+- public/sdk-full-gen2/SDK/agape/agape-engine-runtime.ts
+- public/sdk-full-gen2/SDK/agape/agape-engine-runtime.js
+- public/sdk-full-gen2/SDK/agape/mainModule.ts
+- public/sdk-full-gen2/SDK/agape/new_code.html
+- public/sdk-full-gen2/SDK/agape/uiModule.js
+- public/sdk-full-gen2/SDK/agape/styles.css
+
+## Task List
+
+### Task 1: Refactor example8.html
+- Break down the code in example8.html into smaller, modular components using TypeScript.
+- Create separate files for each component, following best practices for code organization and naming conventions.
+- Ensure all components are properly imported and exported as necessary.
+
+### Task 2: Integrate with Next.js
+- Configure Next.js to work with the refactored code.
+- Ensure proper routing and rendering of components.
+- Optimize performance and SEO as needed.
+
+### Task 3: Update References
+- Update all references to point to new_code.html as the main entry point.
+- Ensure that all components and modules are properly linked and functional.
+
+## Deliverables
+- Refactored code in TypeScript, broken down into modular components.
+- Integrated Next.js configuration and setup.
+- Updated references to point to new_code.html.
+- Improved code readability and maintainability.
+
+## Timeline
+- Estimated completion date: End of the day
+
+## Resources
+- None
+
+## Notes
+- Please ensure that all code is properly commented and follows best practices for code organization and naming conventions.
+- Please provide regular updates on progress and notify the project manager of any issues or concerns.
+
+## File Contents Breakdown
+
+### `mainModule.ts`
+- Import `AgapeEngineRuntime`, `setupWindowEventListeners`, and `setDOM/getDOM` functions.
+- Initialize `AgapeEngineRuntime` with configuration options.
+- Set up event listeners and handle key presses.
+- Dispatch custom events for text changes and camera updates.
+
+### `new_code.html`
+- HTML structure for the application.
+- Includes script tags for `uiModule.js` and `mainModule.js`.
+- Links to `styles.css` for styling.
+
+### `uiModule.js`
+- Exported functions for creating buttons, selects, and inputs.
+- Creates buttons, selects, and inputs with event listeners.
+- Dispatches custom events for button clicks and input changes.
+
+### `styles.css`
+- Styles for the application.
+- Includes CSS for buttons, selects, and inputs.
