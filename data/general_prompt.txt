@@ -1,0 +1,4 @@
+Above is the information of what to work one
+
+Please put it in readme markdown code format
+# Project:  ## Objective ## Task List ## Deliverables ## Timeline ## Resources ## Notes ## File Contents Breakdown,
